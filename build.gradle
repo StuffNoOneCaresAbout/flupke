@@ -88,4 +88,6 @@ task determineVersion {
     }
 }
 
+group = 'me.kavin.flupke'
+
 compileJava.dependsOn determineVersion
